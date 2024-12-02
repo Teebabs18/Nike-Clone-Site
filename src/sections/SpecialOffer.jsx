@@ -3,7 +3,7 @@ import { offer } from "../assets/images"
 
 const SpecialOffer = () => {
   return (
-   <section className="flex justify-between items-center mx-xl:flex-col-reverse gap-10 max-container ">
+   <section id="offers" className="flex justify-between items-center mx-xl:flex-col-reverse gap-10 max-container ">
       <div className="flex-1">
         <img src={offer} alt="Show Promotion" width={773} height={687} className="object-contain w-full" />
       </div>
